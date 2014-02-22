@@ -1,0 +1,22 @@
+﻿0. architecture
+1. content negotiation (json,xml,bson)
+  - header (accept)
+  - querystring (config)
+  - extensible (csv)
+2. odata
+  - $top,$skip,$select,$filter
+  - Apply query directly on db server
+  - Also able to apply query on web server
+  - Queryable policy
+3. auto resolve action
+4. exception
+  - allow content
+  - filter
+  - exception include/exclude exception detail
+5. unit test
+6. content negotiation (input)
+7. message handler
+8. help page generator
+  - generate sample from unit test
+9. binding, filter, routing are different
+10. lightwight, portable
